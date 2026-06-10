@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 
 <body>
 
 <nav class="navbar">
     <div class="logo">Kocaeli Dijital İkiz Kampüsü</div>
-   <div class="nav-links">
-    <a href="#proje">Proje</a>
-    <a href="#isleyis">İşleyiş</a>
-    <a href="#birimler">Birimler</a>
-    <a href="#konum">Konum</a>
-    <a href="#etaplama">Etaplama</a>
-    <a href="#gorseller">Görseller</a>
-    <a href="#dashboard">Dashboard</a>
-    <a href="#raporlar">Raporlar</a>
-    <a href="#kunye">Künye</a>
-</div>
+
+    <div class="nav-links">
+        <a href="#proje">Proje</a>
+        <a href="#isleyis">İşleyiş</a>
+        <a href="#birimler">Birimler</a>
+        <a href="#konum">Konum</a>
+        <a href="#interaktif-harita">Harita</a>
+        <a href="#etaplama">Etaplama</a>
+        <a href="#gorseller">Görseller</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#raporlar">Raporlar</a>
+        <a href="#kunye">Künye</a>
+    </div>
 </nav>
 
 <section class="hero">
@@ -32,7 +36,7 @@
 
         <h1>Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü</h1>
 
-        <h2>Kocaeli 5. Bölge İçin Bölgesel Yönetim ve Karar Destek Merkezi</h2>
+        <h2>Kocaeli İçin Bölgesel Kaynak Yönetimi ve Karar Destek Merkezi</h2>
 
         <p>
             Enerji, su, atık, emisyon ve lojistik akışlarının dijital ikiz teknolojileriyle
@@ -50,14 +54,17 @@
                 <h4>3</h4>
                 <p>OSB Odağı</p>
             </div>
+
             <div class="project-stat">
                 <h4>4</h4>
                 <p>Uygulama Etabı</p>
             </div>
+
             <div class="project-stat">
                 <h4>2050</h4>
                 <p>Vizyon Yılı</p>
             </div>
+
             <div class="project-stat">
                 <h4>6</h4>
                 <p>Temel Sistem Akışı</p>
@@ -70,6 +77,7 @@
     <div class="section-title">
         <span>PROJE</span>
         <h3>Projenin Amacı</h3>
+
         <p>
             Kampüs; organize sanayi bölgeleri, enerji altyapıları, arıtma sistemleri,
             geri kazanım alanları ve lojistik ağlar arasında veri temelli koordinasyon
@@ -99,6 +107,7 @@
     <div class="section-title">
         <span>DİJİTAL İKİZ</span>
         <h3>Sistemin İşleyiş Süreci</h3>
+
         <p>
             Kampüs, veri toplama aşamasından karar üretimine kadar sürekli güncellenen
             bir dijital yönetim döngüsüyle çalışır.
@@ -122,12 +131,35 @@
     </div>
 
     <div class="grid">
-        <div class="card"><h4>Veri Merkezi</h4><p>Verilerin toplandığı, depolandığı ve analiz süreçlerine hazırlandığı ana merkez.</p></div>
-        <div class="card"><h4>Dijital İkiz Laboratuvarı</h4><p>Modelleme, simülasyon ve senaryo geliştirme faaliyetlerinin yürütüldüğü birim.</p></div>
-        <div class="card"><h4>Endüstriyel Simbiyoz Operasyon Merkezi</h4><p>İşletmeler arası kaynak eşleştirme ve uygulama koordinasyonunu sağlar.</p></div>
-        <div class="card"><h4>Karbon İzleme Merkezi</h4><p>Emisyon, enerji, su ve atık performansını izler.</p></div>
-        <div class="card"><h4>Ar-Ge ve Eğitim Merkezi</h4><p>Üniversite-sanayi iş birliği, eğitim ve kapasite geliştirme faaliyetlerini yürütür.</p></div>
-        <div class="card"><h4>Yeşil Altyapı Sistemi</h4><p>Yağmur suyu yönetimi, açık alanlar ve ekolojik peyzaj uygulamalarını destekler.</p></div>
+        <div class="card">
+            <h4>Veri Merkezi</h4>
+            <p>Verilerin toplandığı, depolandığı ve analiz süreçlerine hazırlandığı ana merkez.</p>
+        </div>
+
+        <div class="card">
+            <h4>Dijital İkiz Laboratuvarı</h4>
+            <p>Modelleme, simülasyon ve senaryo geliştirme faaliyetlerinin yürütüldüğü birim.</p>
+        </div>
+
+        <div class="card">
+            <h4>Endüstriyel Simbiyoz Operasyon Merkezi</h4>
+            <p>İşletmeler arası kaynak eşleştirme ve uygulama koordinasyonunu sağlar.</p>
+        </div>
+
+        <div class="card">
+            <h4>Karbon İzleme Merkezi</h4>
+            <p>Emisyon, enerji, su ve atık performansını izler.</p>
+        </div>
+
+        <div class="card">
+            <h4>Ar-Ge ve Eğitim Merkezi</h4>
+            <p>Üniversite-sanayi iş birliği, eğitim ve kapasite geliştirme faaliyetlerini yürütür.</p>
+        </div>
+
+        <div class="card">
+            <h4>Yeşil Altyapı Sistemi</h4>
+            <p>Yağmur suyu yönetimi, açık alanlar ve ekolojik peyzaj uygulamalarını destekler.</p>
+        </div>
     </div>
 </section>
 
@@ -135,6 +167,7 @@
     <div class="section-title">
         <span>YER SEÇİMİ</span>
         <h3>Kampüs Konumu</h3>
+
         <p>
             Önerilen kampüs alanı; Arslanbey OSB, Asım Kibar OSB, Alikahya OSB,
             Cengiz Topel Havalimanı ve ana ulaşım aksları arasında kalan stratejik bir konumda yer almaktadır.
@@ -158,25 +191,59 @@
     </div>
 </section>
 
-<section id="etaplama" class="section">
+<section id="interaktif-harita" class="section">
+    <div class="section-title">
+        <span>HARİTA</span>
+        <h3>İnteraktif Kampüs Konumu</h3>
+
+        <p>
+            Kampüs önerisinin bölgesel konumu OpenStreetMap tabanlı
+            interaktif harita üzerinden görüntülenebilmektedir.
+        </p>
+    </div>
+
+    <div class="map-box">
+        <div id="map"></div>
+    </div>
+</section>
+
+<section id="etaplama" class="section light">
     <div class="section-title">
         <span>ETAPLAMA</span>
         <h3>Uygulama Takvimi</h3>
     </div>
 
     <div class="timeline">
-        <div class="timeline-item"><h4>2026–2032</h4>Hazırlık, veri envanteri, paydaş protokolleri, fizibilite ve uygulama projeleri.</div>
-        <div class="timeline-item"><h4>2032–2038</h4>Kampüsün kurulması, dijital ikiz altyapısının devreye alınması ve pilot uygulama.</div>
-        <div class="timeline-item"><h4>2038–2044</h4>Bölgesel yaygınlaştırma, yeni işletmelerin sisteme entegrasyonu ve ağın güçlendirilmesi.</div>
-        <div class="timeline-item"><h4>2044–2050+</h4>Kocaeli ölçeğinde entegrasyon ve sürekli yönetim modeli.</div>
+        <div class="timeline-item">
+            <h4>2026–2032</h4>
+            Hazırlık, veri envanteri, paydaş protokolleri, fizibilite ve uygulama projeleri.
+        </div>
+
+        <div class="timeline-item">
+            <h4>2032–2038</h4>
+            Kampüsün kurulması, dijital ikiz altyapısının devreye alınması ve pilot uygulama.
+        </div>
+
+        <div class="timeline-item">
+            <h4>2038–2044</h4>
+            Bölgesel yaygınlaştırma, yeni işletmelerin sisteme entegrasyonu ve ağın güçlendirilmesi.
+        </div>
+
+        <div class="timeline-item">
+            <h4>2044–2050+</h4>
+            Kocaeli ölçeğinde entegrasyon ve sürekli yönetim modeli.
+        </div>
     </div>
 </section>
 
-<section id="gorseller" class="section light">
+<section id="gorseller" class="section">
     <div class="section-title">
         <span>GÖRSELLER</span>
         <h3>Proje Haritaları ve Şemalar</h3>
-        <p>Proje kapsamında hazırlanan yer seçimi, kampüs yerleşimi, işleyiş şeması ve yatırım kalemlerine ilişkin görseller.</p>
+
+        <p>
+            Proje kapsamında hazırlanan yer seçimi, kampüs yerleşimi, işleyiş şeması ve yatırım kalemlerine ilişkin görseller.
+        </p>
     </div>
 
     <div class="grid">
@@ -203,10 +270,11 @@
     </div>
 </section>
 
-<section id="dashboard" class="section">
+<section id="dashboard" class="section light">
     <div class="section-title">
         <span>DASHBOARD</span>
         <h3>Örnek Performans Göstergeleri</h3>
+
         <p>
             Dijital ikiz sistemiyle izlenebilecek temel performans göstergelerine ilişkin kavramsal gösterim.
         </p>
@@ -239,7 +307,7 @@
     </div>
 </section>
 
-<section id="etkiler" class="section light">
+<section id="etkiler" class="section">
     <div class="section-title">
         <span>KAZANIMLAR</span>
         <h3>Beklenen Etkiler</h3>
@@ -253,26 +321,34 @@
     </div>
 </section>
 
-<section id="raporlar" class="section">
-    <div class="card">
-    <h4>Eylem Raporu</h4>
+<section id="raporlar" class="section light">
+    <div class="section-title">
+        <span>RAPORLAR</span>
+        <h3>Dokümanlar ve Haritalar</h3>
 
-  <p>
-Bu bölümde proje kapsamında hazırlanan eylem raporu,
-analiz haritaları ve planlama paftalarına erişilebilmektedir.
-Dokümanlar; kampüsün mekânsal kurgusu, uygulama modeli,
-kurumsal yapısı ve beklenen etkilerine ilişkin detaylı içerikler sunmaktadır.
-</p>
-
-    <a href="assets/Berke VATANSEVER Eylem Raporu.pdf"
-       target="_blank"
-       class="button">
-       📄 Raporu Görüntüle
-    </a>
-</div>
+        <p>
+            Bu bölümde proje kapsamında hazırlanan eylem raporu,
+            analiz haritaları ve planlama paftalarına erişilebilmektedir.
+            Dokümanlar; kampüsün mekânsal kurgusu, uygulama modeli,
+            kurumsal yapısı ve beklenen etkilerine ilişkin detaylı içerikler sunmaktadır.
+        </p>
     </div>
 
     <div class="grid">
+        <div class="card">
+            <h4>Eylem Raporu</h4>
+
+            <p>
+                Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü planlama raporu.
+                Projenin amacı, analizleri, kampüs tasarımı, yönetişim modeli,
+                etaplama süreci ve beklenen etkilerine ilişkin detaylı bilgiler içermektedir.
+            </p>
+
+            <a href="assets/Berke VATANSEVER Eylem Raporu.pdf" target="_blank" class="button">
+                📄 Raporu Görüntüle
+            </a>
+        </div>
+
         <div class="card">
             <h4>Harita 1</h4>
             <p>Çalışma alanının bölgesel konumu.</p>
@@ -299,7 +375,7 @@ kurumsal yapısı ve beklenen etkilerine ilişkin detaylı içerikler sunmaktad�
     </div>
 </section>
 
-<section id="kunye" class="section light">
+<section id="kunye" class="section">
     <div class="section-title">
         <span>PROJE KÜNYESİ</span>
         <h3>Hazırlayan ve Çalışma Bilgileri</h3>
@@ -317,6 +393,27 @@ kurumsal yapısı ve beklenen etkilerine ilişkin detaylı içerikler sunmaktad�
 <footer class="footer">
     © 2026 | Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü | Berke VATANSEVER
 </footer>
+
+<script>
+    var map = L.map('map').setView([40.765, 30.060], 11);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    L.marker([40.765, 30.060]).addTo(map)
+        .bindPopup(
+            "<b>Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü</b><br>Kocaeli Endüstriyel Simbiyoz ve Dijital Dönüşüm Odak Bölgesi"
+        )
+        .openPopup();
+
+    L.circle([40.765, 30.060], {
+        color: '#22c55e',
+        fillColor: '#22c55e',
+        fillOpacity: 0.15,
+        radius: 5000
+    }).addTo(map);
+</script>
 
 </body>
 </html>
