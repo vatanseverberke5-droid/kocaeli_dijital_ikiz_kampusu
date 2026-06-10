@@ -378,3 +378,21 @@ a {
     width:auto;
     display:block;
 }
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    color: #22c55e;
+}
+
+.navbar .logo img {
+    height: 42px;
+    width: 42px;
+    object-fit: contain;
+}
+
+.navbar .logo span {
+    font-size: 1rem;
+    white-space: nowrap;
+}
