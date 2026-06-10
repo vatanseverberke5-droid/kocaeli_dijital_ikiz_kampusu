@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,7 @@
         <a href="#birimler">Birimler</a>
         <a href="#konum">Konum</a>
         <a href="#etaplama">Etaplama</a>
-        <a href="#gorseller">Görseller</a>
+        <a href="#dashboard">Dashboard</a>
         <a href="#raporlar">Raporlar</a>
     </div>
 </nav>
@@ -39,7 +38,26 @@
 
         <div class="hero-buttons">
             <a href="#proje" class="button">Projeyi İncele</a>
-            <a href="#raporlar" class="button secondary">Raporlar</a>
+            <a href="#raporlar" class="button secondary">Raporlar ve Haritalar</a>
+        </div>
+
+        <div class="project-stats">
+            <div class="project-stat">
+                <h4>3</h4>
+                <p>OSB Odağı</p>
+            </div>
+            <div class="project-stat">
+                <h4>4</h4>
+                <p>Uygulama Etabı</p>
+            </div>
+            <div class="project-stat">
+                <h4>2050</h4>
+                <p>Vizyon Yılı</p>
+            </div>
+            <div class="project-stat">
+                <h4>6</h4>
+                <p>Temel Sistem Akışı</p>
+            </div>
         </div>
     </div>
 </section>
@@ -100,35 +118,12 @@
     </div>
 
     <div class="grid">
-        <div class="card">
-            <h4>Veri Merkezi</h4>
-            <p>Verilerin toplandığı, depolandığı ve analiz süreçlerine hazırlandığı ana merkez.</p>
-        </div>
-
-        <div class="card">
-            <h4>Dijital İkiz Laboratuvarı</h4>
-            <p>Modelleme, simülasyon ve senaryo geliştirme faaliyetlerinin yürütüldüğü birim.</p>
-        </div>
-
-        <div class="card">
-            <h4>Endüstriyel Simbiyoz Operasyon Merkezi</h4>
-            <p>İşletmeler arası kaynak eşleştirme ve uygulama koordinasyonunu sağlar.</p>
-        </div>
-
-        <div class="card">
-            <h4>Karbon İzleme Merkezi</h4>
-            <p>Emisyon, enerji, su ve atık performansını izler.</p>
-        </div>
-
-        <div class="card">
-            <h4>Ar-Ge ve Eğitim Merkezi</h4>
-            <p>Üniversite-sanayi iş birliği, eğitim ve kapasite geliştirme faaliyetlerini yürütür.</p>
-        </div>
-
-        <div class="card">
-            <h4>Yeşil Altyapı Sistemi</h4>
-            <p>Yağmur suyu yönetimi, açık alanlar ve ekolojik peyzaj uygulamalarını destekler.</p>
-        </div>
+        <div class="card"><h4>Veri Merkezi</h4><p>Verilerin toplandığı, depolandığı ve analiz süreçlerine hazırlandığı ana merkez.</p></div>
+        <div class="card"><h4>Dijital İkiz Laboratuvarı</h4><p>Modelleme, simülasyon ve senaryo geliştirme faaliyetlerinin yürütüldüğü birim.</p></div>
+        <div class="card"><h4>Endüstriyel Simbiyoz Operasyon Merkezi</h4><p>İşletmeler arası kaynak eşleştirme ve uygulama koordinasyonunu sağlar.</p></div>
+        <div class="card"><h4>Karbon İzleme Merkezi</h4><p>Emisyon, enerji, su ve atık performansını izler.</p></div>
+        <div class="card"><h4>Ar-Ge ve Eğitim Merkezi</h4><p>Üniversite-sanayi iş birliği, eğitim ve kapasite geliştirme faaliyetlerini yürütür.</p></div>
+        <div class="card"><h4>Yeşil Altyapı Sistemi</h4><p>Yağmur suyu yönetimi, açık alanlar ve ekolojik peyzaj uygulamalarını destekler.</p></div>
     </div>
 </section>
 
@@ -145,12 +140,16 @@
     <div class="grid">
         <div class="card">
             <h4>Yer Seçimi Görseli</h4>
-            <img src="Yer_Seçim.jpg" alt="Yer Seçimi" style="width:100%; border-radius:12px; margin-top:15px;">
+            <a class="image-link" href="Yer_Seçim.jpg" target="_blank">
+                <img src="Yer_Seçim.jpg" alt="Yer Seçimi" style="width:100%; border-radius:12px; margin-top:15px;">
+            </a>
         </div>
 
         <div class="card">
             <h4>Kampüs Yerleşimi</h4>
-            <img src="kampüs yerleşimi.png" alt="Kampüs Yerleşimi" style="width:100%; border-radius:12px; margin-top:15px;">
+            <a class="image-link" href="kampüs yerleşimi.png" target="_blank">
+                <img src="kampüs yerleşimi.png" alt="Kampüs Yerleşimi" style="width:100%; border-radius:12px; margin-top:15px;">
+            </a>
         </div>
     </div>
 </section>
@@ -162,62 +161,99 @@
     </div>
 
     <div class="timeline">
-        <div class="timeline-item">
-            <h4>2026–2032</h4>
-            Hazırlık, veri envanteri, paydaş protokolleri, fizibilite ve uygulama projeleri.
-        </div>
-
-        <div class="timeline-item">
-            <h4>2032–2038</h4>
-            Kampüsün kurulması, dijital ikiz altyapısının devreye alınması ve pilot uygulama.
-        </div>
-
-        <div class="timeline-item">
-            <h4>2038–2044</h4>
-            Bölgesel yaygınlaştırma, yeni işletmelerin sisteme entegrasyonu ve ağın güçlendirilmesi.
-        </div>
-
-        <div class="timeline-item">
-            <h4>2044–2050+</h4>
-            Kocaeli ölçeğinde entegrasyon ve sürekli yönetim modeli.
-        </div>
+        <div class="timeline-item"><h4>2026–2032</h4>Hazırlık, veri envanteri, paydaş protokolleri, fizibilite ve uygulama projeleri.</div>
+        <div class="timeline-item"><h4>2032–2038</h4>Kampüsün kurulması, dijital ikiz altyapısının devreye alınması ve pilot uygulama.</div>
+        <div class="timeline-item"><h4>2038–2044</h4>Bölgesel yaygınlaştırma, yeni işletmelerin sisteme entegrasyonu ve ağın güçlendirilmesi.</div>
+        <div class="timeline-item"><h4>2044–2050+</h4>Kocaeli ölçeğinde entegrasyon ve sürekli yönetim modeli.</div>
     </div>
 </section>
 
 <section id="gorseller" class="section light">
     <div class="section-title">
         <span>GÖRSELLER</span>
-        <h3>Proje Görselleri ve Şemalar</h3>
-        <p>
-            Proje kapsamında hazırlanan işleyiş şeması, yatırım kalemleri, kampüs yerleşimi ve pafta görselleri.
-        </p>
+        <h3>Proje Haritaları ve Şemalar</h3>
+        <p>Proje kapsamında hazırlanan yer seçimi, kampüs yerleşimi, işleyiş şeması ve yatırım kalemlerine ilişkin görseller.</p>
     </div>
 
     <div class="grid">
         <div class="card">
             <h4>Dijital İkiz İşleyiş Şeması</h4>
-            <img src="Endüstriyel simbiyoz ve dijital ikiz işleyiş şeması.png" alt="İşleyiş Şeması" style="width:100%; border-radius:12px; margin-top:15px;">
+            <a class="image-link" href="Endüstriyel simbiyoz ve dijital ikiz işleyiş şeması.png" target="_blank">
+                <img src="Endüstriyel simbiyoz ve dijital ikiz işleyiş şeması.png" alt="İşleyiş Şeması" style="width:100%; border-radius:12px; margin-top:15px;">
+            </a>
         </div>
 
         <div class="card">
             <h4>Yatırım Kalemleri</h4>
-            <img src="Yatırım Kalemleri ve Kapsamları.png" alt="Yatırım Kalemleri" style="width:100%; border-radius:12px; margin-top:15px;">
+            <a class="image-link" href="Yatırım Kalemleri ve Kapsamları.png" target="_blank">
+                <img src="Yatırım Kalemleri ve Kapsamları.png" alt="Yatırım Kalemleri" style="width:100%; border-radius:12px; margin-top:15px;">
+            </a>
         </div>
 
         <div class="card">
             <h4>Proje Paftası</h4>
-            <img src="Pafta.jpg" alt="Proje Paftası" style="width:100%; border-radius:12px; margin-top:15px;">
+            <a class="image-link" href="Pafta.jpg" target="_blank">
+                <img src="Pafta.jpg" alt="Proje Paftası" style="width:100%; border-radius:12px; margin-top:15px;">
+            </a>
         </div>
     </div>
 </section>
 
-<section id="haritalar" class="section">
+<section id="dashboard" class="section">
     <div class="section-title">
-        <span>HARİTALAR</span>
-        <h3>Analiz Haritaları</h3>
+        <span>DASHBOARD</span>
+        <h3>Örnek Performans Göstergeleri</h3>
         <p>
-            Çalışma alanı, mekânsal bileşenler ve bölgesel akış ilişkilerine ait haritalar PDF olarak görüntülenebilir.
+            Dijital ikiz sistemiyle izlenebilecek temel performans göstergelerine ilişkin kavramsal gösterim.
         </p>
+    </div>
+
+    <div class="dashboard">
+        <div class="dashboard-card">
+            <h4>Enerji Verimliliği</h4>
+            <strong>%18</strong>
+            <div class="progress"><span style="width:18%;"></span></div>
+        </div>
+
+        <div class="dashboard-card">
+            <h4>Su Geri Kazanımı</h4>
+            <strong>%22</strong>
+            <div class="progress"><span style="width:22%;"></span></div>
+        </div>
+
+        <div class="dashboard-card">
+            <h4>Atık Değerlendirme</h4>
+            <strong>%35</strong>
+            <div class="progress"><span style="width:35%;"></span></div>
+        </div>
+
+        <div class="dashboard-card">
+            <h4>Karbon Azaltımı</h4>
+            <strong>%14</strong>
+            <div class="progress"><span style="width:14%;"></span></div>
+        </div>
+    </div>
+</section>
+
+<section id="etkiler" class="section light">
+    <div class="section-title">
+        <span>KAZANIMLAR</span>
+        <h3>Beklenen Etkiler</h3>
+    </div>
+
+    <div class="stats">
+        <div class="stat"><h4>🌱</h4><p>Çevresel Kazanımlar</p></div>
+        <div class="stat"><h4>💰</h4><p>Ekonomik Kazanımlar</p></div>
+        <div class="stat"><h4>👥</h4><p>Sosyal Kazanımlar</p></div>
+        <div class="stat"><h4>🏛️</h4><p>Yönetsel Kazanımlar</p></div>
+    </div>
+</section>
+
+<section id="raporlar" class="section">
+    <div class="section-title">
+        <span>RAPORLAR</span>
+        <h3>Dokümanlar ve Haritalar</h3>
+        <p>Proje raporu, pafta ve analiz haritalarına bu bölümden erişilebilir.</p>
     </div>
 
     <div class="grid">
@@ -238,58 +274,27 @@
             <p>Bölgesel akış ve etkileşim sistemi.</p>
             <a href="assets/Harita_3.pdf" target="_blank" class="button">Haritayı Aç</a>
         </div>
-    </div>
-</section>
 
-<section id="etkiler" class="section light">
-    <div class="section-title">
-        <span>KAZANIMLAR</span>
-        <h3>Beklenen Etkiler</h3>
-    </div>
-
-    <div class="stats">
-        <div class="stat">
-            <h4>🌱</h4>
-            <p>Çevresel Kazanımlar</p>
-        </div>
-
-        <div class="stat">
-            <h4>💰</h4>
-            <p>Ekonomik Kazanımlar</p>
-        </div>
-
-        <div class="stat">
-            <h4>👥</h4>
-            <p>Sosyal Kazanımlar</p>
-        </div>
-
-        <div class="stat">
-            <h4>🏛️</h4>
-            <p>Yönetsel Kazanımlar</p>
-        </div>
-    </div>
-</section>
-
-<section id="raporlar" class="section">
-    <div class="section-title">
-        <span>RAPORLAR</span>
-        <h3>Dokümanlar</h3>
-        <p>
-            Büyük PDF dosyaları GitHub yükleme sınırına takılabileceği için şimdilik harita PDF'leri siteye eklenmiştir.
-            Ana rapor PDF'i daha sonra sıkıştırılarak veya harici bağlantı ile eklenebilir.
-        </p>
-    </div>
-
-    <div class="grid">
         <div class="card">
             <h4>Proje Paftası</h4>
-            <p>Proje paftasının görsel ön izlemesi yukarıdaki görseller bölümünde yer almaktadır.</p>
+            <p>Pafta görseli yeni sekmede açılabilir.</p>
+            <a href="Pafta.jpg" target="_blank" class="button">Paftayı Aç</a>
         </div>
+    </div>
+</section>
 
-        <div class="card">
-            <h4>Rapor PDF</h4>
-            <p>Rapor PDF'i sıkıştırıldıktan sonra bu bölüme indirilebilir bağlantı olarak eklenecektir.</p>
-        </div>
+<section id="kunye" class="section light">
+    <div class="section-title">
+        <span>PROJE KÜNYESİ</span>
+        <h3>Hazırlayan ve Çalışma Bilgileri</h3>
+    </div>
+
+    <div class="profile-box">
+        <p><strong>Proje:</strong> Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü Önerisi</p>
+        <p><strong>Hazırlayan:</strong> Berke VATANSEVER</p>
+        <p><strong>Kapsam:</strong> Planlama Atölyesi IV / Kocaeli 2050 Vizyon Planı</p>
+        <p><strong>Odak:</strong> Döngüsel ekonomi, endüstriyel simbiyoz, dijital ikiz ve veri temelli bölgesel yönetim</p>
+        <p><strong>Çalışma Alanı:</strong> Kocaeli 5. Bölge</p>
     </div>
 </section>
 
