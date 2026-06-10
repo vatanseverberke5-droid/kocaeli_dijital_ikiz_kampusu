@@ -1,203 +1,261 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü</title>
 
-<title>Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü</title>
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family: "Segoe UI", sans-serif;
-    background:#0b1120;
-    color:white;
-    line-height:1.7;
-}
-
-.hero{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:40px;
-    background:
-    linear-gradient(rgba(11,17,32,.85),rgba(11,17,32,.85)),
-    url("https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1800&q=80");
-    background-size:cover;
-    background-position:center;
-}
-
-.hero-content{
-    max-width:1000px;
-}
-
-.hero h1{
-    font-size:4rem;
-    margin-bottom:20px;
-}
-
-.hero h2{
-    font-size:1.5rem;
-    font-weight:400;
-    color:#94a3b8;
-    margin-bottom:25px;
-}
-
-.hero p{
-    max-width:850px;
-    margin:auto;
-    font-size:1.1rem;
-}
-
-.button{
-    display:inline-block;
-    margin-top:35px;
-    padding:15px 35px;
-    background:#22c55e;
-    color:white;
-    text-decoration:none;
-    border-radius:10px;
-    font-weight:600;
-    transition:.3s;
-}
-
-.button:hover{
-    background:#16a34a;
-}
-
-.section{
-    padding:100px 10%;
-}
-
-.section h3{
-    font-size:2rem;
-    margin-bottom:25px;
-    color:#22c55e;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-    margin-top:40px;
-}
-
-.card{
-    background:#111827;
-    padding:30px;
-    border-radius:15px;
-}
-
-.card h4{
-    margin-bottom:10px;
-    color:#60a5fa;
-}
-
-.footer{
-    text-align:center;
-    padding:40px;
-    border-top:1px solid #1e293b;
-    color:#94a3b8;
-}
-
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<section class="hero">
-    <div class="hero-content">
+    <nav class="navbar">
+        <div class="logo">
+            Kocaeli Dijital İkiz Kampüsü
+        </div>
 
-        <h1>
-            Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü
-        </h1>
+        <div class="nav-links">
+            <a href="#hakkinda">Proje</a>
+            <a href="#isleyis">İşleyiş</a>
+            <a href="#birimler">Birimler</a>
+            <a href="#etaplama">Etaplama</a>
+            <a href="#etkiler">Kazanımlar</a>
+        </div>
+    </nav>
 
-        <h2>
-            Kocaeli 5. Bölge Planlama Projesi
-        </h2>
+    <section class="hero">
 
-        <p>
-            Bu proje; enerji, su, atık, emisyon ve lojistik
-            akışlarının dijital ikiz teknolojileri ile izlenmesini,
-            endüstriyel simbiyoz ilişkilerinin geliştirilmesini ve
-            döngüsel ekonomi temelli bölgesel kaynak yönetiminin
-            oluşturulmasını amaçlamaktadır.
-        </p>
+        <div class="hero-content">
 
-        <a href="#proje" class="button">
-            Projeyi İncele
-        </a>
+            <div class="badge">
+                Kocaeli 2050 Vizyon Planı
+            </div>
 
-    </div>
-</section>
+            <h1>
+                Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü
+            </h1>
 
-<section id="proje" class="section">
+            <h2>
+                Kocaeli 5. Bölge İçin Bölgesel Yönetim ve Karar Destek Merkezi
+            </h2>
 
-    <h3>Proje Hakkında</h3>
-
-    <p>
-        Önerilen kampüs; veri merkezi, dijital ikiz laboratuvarı,
-        karbon izleme merkezi, araştırma-geliştirme birimleri ve
-        endüstriyel simbiyoz operasyon merkezinden oluşan bölgesel
-        bir karar destek sistemi olarak tasarlanmıştır.
-    </p>
-
-    <div class="cards">
-
-        <div class="card">
-            <h4>Dijital İkiz</h4>
             <p>
-                Sanayi sistemlerinin gerçek zamanlı izlenmesi,
-                analiz edilmesi ve senaryo üretimi.
+                Enerji, su, atık, emisyon ve lojistik akışlarının
+                dijital ikiz teknolojileri ile izlenmesini sağlayan,
+                endüstriyel simbiyoz ilişkilerini geliştiren ve
+                döngüsel ekonomiyi destekleyen yenilikçi bir kampüs modeli.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#hakkinda" class="button">Projeyi İncele</a>
+                <a href="#etaplama" class="button secondary">Uygulama Süreci</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="hakkinda" class="section">
+
+        <div class="section-title">
+            <span>PROJE</span>
+            <h3>Projenin Amacı</h3>
+
+            <p>
+                Kampüs; organize sanayi bölgeleri, enerji altyapıları,
+                arıtma sistemleri ve lojistik ağlar arasında veri temelli
+                koordinasyon sağlayan bölgesel bir merkez olarak tasarlanmıştır.
             </p>
         </div>
 
-        <div class="card">
-            <h4>Endüstriyel Simbiyoz</h4>
-            <p>
-                İşletmeler arası kaynak paylaşımı ve döngüsel
-                ekonomi uygulamalarının geliştirilmesi.
-            </p>
+        <div class="grid">
+
+            <div class="card">
+                <h4>Dijital İkiz</h4>
+                <p>
+                    Bölgenin sanal modelini oluşturarak gerçek zamanlı izleme,
+                    analiz ve senaryo üretimi sağlar.
+                </p>
+            </div>
+
+            <div class="card">
+                <h4>Endüstriyel Simbiyoz</h4>
+                <p>
+                    İşletmeler arası kaynak paylaşımını ve döngüsel ekonomi
+                    uygulamalarını destekler.
+                </p>
+            </div>
+
+            <div class="card">
+                <h4>Veri Yönetimi</h4>
+                <p>
+                    Enerji, su, atık ve lojistik verilerini ortak platformda
+                    bir araya getirir.
+                </p>
+            </div>
+
         </div>
 
-        <div class="card">
-            <h4>Karar Destek Sistemi</h4>
-            <p>
-                Veri temelli planlama ve yatırım kararlarının
-                desteklenmesi.
-            </p>
+    </section>
+
+    <section id="isleyis" class="section light">
+
+        <div class="section-title">
+            <span>DİJİTAL İKİZ</span>
+            <h3>Sistemin İşleyiş Süreci</h3>
         </div>
 
-    </div>
+        <div class="flow">
 
-</section>
+            <div class="flow-step">
+                <strong>1</strong>
+                Veri Toplama
+            </div>
 
-<section class="section">
+            <div class="flow-step">
+                <strong>2</strong>
+                Veri Merkezi
+            </div>
 
-    <h3>Çalışma Alanı</h3>
+            <div class="flow-step">
+                <strong>3</strong>
+                Dijital İkiz Analizi
+            </div>
 
-    <p>
-        Kampüs; Arslanbey OSB, Asım Kibar OSB ve Alikahya OSB
-        arasında konumlandırılmış olup enerji altyapıları,
-        geri kazanım sistemleri ve lojistik ağlar ile güçlü
-        ilişkilere sahiptir.
-    </p>
+            <div class="flow-step">
+                <strong>4</strong>
+                Senaryo Üretimi
+            </div>
 
-</section>
+            <div class="flow-step">
+                <strong>5</strong>
+                Simbiyoz Eşleşmeleri
+            </div>
 
-<footer class="footer">
+            <div class="flow-step">
+                <strong>6</strong>
+                Karar ve Uygulama
+            </div>
 
-    © 2026 | Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü
+        </div>
 
-</footer>
+    </section>
+
+    <section id="birimler" class="section">
+
+        <div class="section-title">
+            <span>KAMPÜS</span>
+            <h3>Kampüs Birimleri</h3>
+        </div>
+
+        <div class="grid">
+
+            <div class="card">
+                <h4>Veri Merkezi</h4>
+                <p>Tüm bölgesel verilerin depolandığı ve işlendiği merkez.</p>
+            </div>
+
+            <div class="card">
+                <h4>Dijital İkiz Laboratuvarı</h4>
+                <p>Analiz, modelleme ve senaryo geliştirme çalışmaları.</p>
+            </div>
+
+            <div class="card">
+                <h4>Operasyon Merkezi</h4>
+                <p>Sistem koordinasyonu ve uygulama yönetimi.</p>
+            </div>
+
+            <div class="card">
+                <h4>Karbon İzleme Birimi</h4>
+                <p>Emisyon takibi ve iklim performansı değerlendirmeleri.</p>
+            </div>
+
+            <div class="card">
+                <h4>Ar-Ge Merkezi</h4>
+                <p>Yenilikçi teknolojiler ve araştırma faaliyetleri.</p>
+            </div>
+
+            <div class="card">
+                <h4>Eğitim Merkezi</h4>
+                <p>Kapasite geliştirme ve bilgi paylaşım faaliyetleri.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="etaplama" class="section light">
+
+        <div class="section-title">
+            <span>ETAPLAMA</span>
+            <h3>Uygulama Takvimi</h3>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h4>2026–2032</h4>
+                Hazırlık ve ön geliştirme süreci.
+            </div>
+
+            <div class="timeline-item">
+                <h4>2032–2038</h4>
+                Kampüsün kurulması ve pilot uygulama dönemi.
+            </div>
+
+            <div class="timeline-item">
+                <h4>2038–2044</h4>
+                Bölgesel yaygınlaştırma ve ağın güçlendirilmesi.
+            </div>
+
+            <div class="timeline-item">
+                <h4>2044–2050+</h4>
+                Kocaeli ölçeğinde entegrasyon ve sürekli yönetim.
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="etkiler" class="section">
+
+        <div class="section-title">
+            <span>KAZANIMLAR</span>
+            <h3>Beklenen Etkiler</h3>
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <h4>🌱</h4>
+                <p>Çevresel Kazanımlar</p>
+            </div>
+
+            <div class="stat">
+                <h4>💰</h4>
+                <p>Ekonomik Kazanımlar</p>
+            </div>
+
+            <div class="stat">
+                <h4>👥</h4>
+                <p>Sosyal Kazanımlar</p>
+            </div>
+
+            <div class="stat">
+                <h4>🏛️</h4>
+                <p>Yönetsel Kazanımlar</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        © 2026 | Kocaeli Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü
+    </footer>
 
 </body>
+
 </html>
