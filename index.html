@@ -395,19 +395,19 @@
 </footer>
 
 <script>
-    var map = L.map('map').setView([40.7348, 30.0548], 14);
+    var map = L.map('map').setView([40.7335, 30.0585], 14);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    L.marker([40.7348, 30.0548]).addTo(map)
+    L.marker([40.7335, 30.0585]).addTo(map)
         .bindPopup(
             "<b>Endüstriyel Simbiyoz ve Dijital İkiz Kampüsü</b><br>Kocaeli Endüstriyel Simbiyoz ve Dijital Dönüşüm Odak Bölgesi"
         )
         .openPopup();
 
-    L.circle([40.7348, 30.0548], {
+    L.circle([40.7335, 30.0585], {
         color: '#22c55e',
         fillColor: '#22c55e',
         fillOpacity: 0.15,
