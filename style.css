@@ -373,18 +373,6 @@ a {
     color:#22c55e;
 }
 
-.logo img{
-    height:55px;
-    width:auto;
-    display:block;
-}
-.navbar .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    color: #22c55e;
-}
 
 .navbar .logo img {
     height: 42px;
@@ -395,4 +383,26 @@ a {
 .navbar .logo span {
     font-size: 1rem;
     white-space: nowrap;
+}
+/* LOGO DÜZELTME */
+
+.navbar .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#22c55e;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.navbar .logo img{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+    display:block;
+}
+
+.navbar .logo span{
+    font-size:1rem;
+    white-space:nowrap;
 }
